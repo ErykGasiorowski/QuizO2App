@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A38BAF3EC0D420BF319D098D /* libPods-QuizO2_WPPILOT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C693819392974239BA10DBC /* libPods-QuizO2_WPPILOT.a */; };
 		CF60269327FB85F600DBE0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60269227FB85F600DBE0D1 /* AppDelegate.swift */; };
 		CF60269527FB85F600DBE0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60269427FB85F600DBE0D1 /* SceneDelegate.swift */; };
 		CF60269727FB85F600DBE0D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60269627FB85F600DBE0D1 /* ViewController.swift */; };
-		CF60269A27FB85F600DBE0D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60269827FB85F600DBE0D1 /* Main.storyboard */; };
 		CF60269C27FB85F800DBE0D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF60269B27FB85F800DBE0D1 /* Assets.xcassets */; };
 		CF60269F27FB85F800DBE0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF60269D27FB85F800DBE0D1 /* LaunchScreen.storyboard */; };
+		CF74384227FB890700702996 /* QuizListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74384127FB890700702996 /* QuizListTableViewCell.swift */; };
+		CF74384427FB894A00702996 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74384327FB894A00702996 /* Extensions.swift */; };
+		CF74384627FB897F00702996 /* QuizListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF74384527FB897F00702996 /* QuizListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E10E70B9641E458083C896B /* Pods-QuizO2_WPPILOT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizO2_WPPILOT.debug.xcconfig"; path = "Target Support Files/Pods-QuizO2_WPPILOT/Pods-QuizO2_WPPILOT.debug.xcconfig"; sourceTree = "<group>"; };
+		8C693819392974239BA10DBC /* libPods-QuizO2_WPPILOT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuizO2_WPPILOT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF60268F27FB85F600DBE0D1 /* QuizO2_WPPILOT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuizO2_WPPILOT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF60269227FB85F600DBE0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF60269427FB85F600DBE0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CF60269627FB85F600DBE0D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CF60269927FB85F600DBE0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF60269B27FB85F800DBE0D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF60269E27FB85F800DBE0D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF6026A027FB85F800DBE0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF74384127FB890700702996 /* QuizListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizListTableViewCell.swift; sourceTree = "<group>"; };
+		CF74384327FB894A00702996 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CF74384527FB897F00702996 /* QuizListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizListViewModel.swift; sourceTree = "<group>"; };
+		DFAA648E796007E61F17C185 /* Pods-QuizO2_WPPILOT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuizO2_WPPILOT.release.xcconfig"; path = "Target Support Files/Pods-QuizO2_WPPILOT/Pods-QuizO2_WPPILOT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A38BAF3EC0D420BF319D098D /* libPods-QuizO2_WPPILOT.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23816AE5AA866749B627BDFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E10E70B9641E458083C896B /* Pods-QuizO2_WPPILOT.debug.xcconfig */,
+				DFAA648E796007E61F17C185 /* Pods-QuizO2_WPPILOT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B321E0E231704A44962D299 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C693819392974239BA10DBC /* libPods-QuizO2_WPPILOT.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF60268627FB85F600DBE0D1 = {
 			isa = PBXGroup;
 			children = (
 				CF60269127FB85F600DBE0D1 /* QuizO2_WPPILOT */,
 				CF60269027FB85F600DBE0D1 /* Products */,
+				23816AE5AA866749B627BDFE /* Pods */,
+				8B321E0E231704A44962D299 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,33 @@
 		CF60269127FB85F600DBE0D1 /* QuizO2_WPPILOT */ = {
 			isa = PBXGroup;
 			children = (
-				CF60269227FB85F600DBE0D1 /* AppDelegate.swift */,
-				CF60269427FB85F600DBE0D1 /* SceneDelegate.swift */,
-				CF60269627FB85F600DBE0D1 /* ViewController.swift */,
-				CF60269827FB85F600DBE0D1 /* Main.storyboard */,
-				CF60269B27FB85F800DBE0D1 /* Assets.xcassets */,
-				CF60269D27FB85F800DBE0D1 /* LaunchScreen.storyboard */,
+				CF74384027FB887200702996 /* Resources */,
+				CF74383F27FB886800702996 /* Views */,
 				CF6026A027FB85F800DBE0D1 /* Info.plist */,
 			);
 			path = QuizO2_WPPILOT;
+			sourceTree = "<group>";
+		};
+		CF74383F27FB886800702996 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF60269627FB85F600DBE0D1 /* ViewController.swift */,
+				CF74384127FB890700702996 /* QuizListTableViewCell.swift */,
+				CF74384527FB897F00702996 /* QuizListViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF74384027FB887200702996 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF60269227FB85F600DBE0D1 /* AppDelegate.swift */,
+				CF60269427FB85F600DBE0D1 /* SceneDelegate.swift */,
+				CF60269D27FB85F800DBE0D1 /* LaunchScreen.storyboard */,
+				CF60269B27FB85F800DBE0D1 /* Assets.xcassets */,
+				CF74384327FB894A00702996 /* Extensions.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6026A327FB85F800DBE0D1 /* Build configuration list for PBXNativeTarget "QuizO2_WPPILOT" */;
 			buildPhases = (
+				309F2F5687C37916989756C6 /* [CP] Check Pods Manifest.lock */,
 				CF60268B27FB85F600DBE0D1 /* Sources */,
 				CF60268C27FB85F600DBE0D1 /* Frameworks */,
 				CF60268D27FB85F600DBE0D1 /* Resources */,
@@ -127,34 +174,53 @@
 			files = (
 				CF60269F27FB85F800DBE0D1 /* LaunchScreen.storyboard in Resources */,
 				CF60269C27FB85F800DBE0D1 /* Assets.xcassets in Resources */,
-				CF60269A27FB85F600DBE0D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		309F2F5687C37916989756C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuizO2_WPPILOT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF60268B27FB85F600DBE0D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF74384427FB894A00702996 /* Extensions.swift in Sources */,
 				CF60269727FB85F600DBE0D1 /* ViewController.swift in Sources */,
 				CF60269327FB85F600DBE0D1 /* AppDelegate.swift in Sources */,
 				CF60269527FB85F600DBE0D1 /* SceneDelegate.swift in Sources */,
+				CF74384227FB890700702996 /* QuizListTableViewCell.swift in Sources */,
+				CF74384627FB897F00702996 /* QuizListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CF60269827FB85F600DBE0D1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF60269927FB85F600DBE0D1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CF60269D27FB85F800DBE0D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +350,7 @@
 		};
 		CF6026A427FB85F800DBE0D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E10E70B9641E458083C896B /* Pods-QuizO2_WPPILOT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +361,7 @@
 				INFOPLIST_FILE = QuizO2_WPPILOT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +379,7 @@
 		};
 		CF6026A527FB85F800DBE0D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAA648E796007E61F17C185 /* Pods-QuizO2_WPPILOT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +390,7 @@
 				INFOPLIST_FILE = QuizO2_WPPILOT/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
