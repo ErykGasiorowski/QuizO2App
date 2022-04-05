@@ -1,0 +1,6 @@
+module Pods_QuizO2_WPPILOT {
+  umbrella header "Pods-QuizO2_WPPILOT-umbrella.h"
+
+  export *
+  module * { export * }
+}
